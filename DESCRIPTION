@@ -1,0 +1,32 @@
+Package: kissatire
+Type: Package
+Title: SAT Solver using 'Kissat'
+Version: 1.0.0
+Authors@R: c(
+    person("Mike", "Cheng", role = c("aut", "cre", 'cph'), email = "mikefc@coolbutuseless.com")
+    )
+Maintainer: Mike Cheng <mikefc@coolbutuseless.com>
+URL: https://github.com/coolbutuseless/kissatire
+BugReports: https://github.com/coolbutuseless/kissatire/issues
+Description: A solver for Boolean satisfiability problems ('SAT') using the
+    'Kissat' library.  For this solver, 'SAT' problems can be formulated in 
+    two ways; using integer literals, or using logical expressions 
+    specified with the 'satire' package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Imports:
+  satire
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0),
+    glue,
+    ggplot2,
+    purrr
+Config/testthat/edition: 3
+Copyright: The included 'Kissat' code is Copyright (c) Armin Biere. 
+  See 'COPYRIGHTS' file for LICENSE for included code.
+Remotes:
+  coolbutuseless/satire
+VignetteBuilder: knitr
