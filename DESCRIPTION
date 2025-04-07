@@ -30,3 +30,4 @@ Copyright: The included 'Kissat' code is Copyright (c) Armin Biere.
 Remotes:
   coolbutuseless/satire
 VignetteBuilder: knitr
+OS_type: unix
